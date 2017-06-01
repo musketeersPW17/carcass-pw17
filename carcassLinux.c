@@ -35,7 +35,7 @@ struct Placement place[300];
 
 void tileset(int a,int b,int set[a][b], int typesoftiles)
 {
-    int t,y,q=0,l=0,c=0,e=0,d,lx,ly;
+    int t,y,q=0,l=0,c=0,e=0,d = 0,lx,ly;
     for(y=0;y<a;y++)
     {
         for(t=0;t<b;t++)
@@ -154,7 +154,7 @@ void tileset(int a,int b,int set[a][b], int typesoftiles)
 }
 void tilesetscore(int a,int b,int set[a][b], int typesoftiles)
 {
-    int t,y,q=0,l=0,c=0,e=0,d,lx,ly;
+    int t,y,q=0,l=0,c=0,e=0,d = 0,lx,ly;
     for(y=0;y<a;y++)
     {
         for(t=0;t<b;t++)
